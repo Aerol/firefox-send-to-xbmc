@@ -1,5 +1,4 @@
-# Send to XBMC/Kodi Firefox plugin
-https://addons.mozilla.org/en-US/firefox/addon/send-to-xbmc/
+# Send to Kodi Firefox plugin
 
 ## About
 Sends YouTube videos, video and music links to Kodi for playback. Adds a right click menu for links pointing to YouTube and audio/video files for direct playback on your TV with Kodi.
@@ -39,6 +38,7 @@ Plug your Kodi info into the FireFox addon... IP can be obtained from System -> 
   * gif
   * jpeg
   * tiff
+  * webm
 
 - Supports multiple servers
 
@@ -51,10 +51,10 @@ Plug your Kodi info into the FireFox addon... IP can be obtained from System -> 
 
 ## Building
 
-Make sure you have the Add-on SDK [installed](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation) and that you have `cfx` activated.
+Make sure you have the Add-on SDK [installed](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation) and that you have `jpm` activated.
 
-Run the plugin with `cfx run`
-Create an xpi that you can drag and drop to your browser with `cfx xpi`
+Run the plugin with `jpm run`
+Create an xpi that you can drag and drop to your browser with `jpm xpi`
 
 To add the "Options" button in the Add-ons Manager, replace the `install.rdf` file in the xpi file with the `install.rdf` file from the repository using an archive manager such as 7-zip.
 
